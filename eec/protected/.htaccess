@@ -1,7 +1,0 @@
-<Files *>
-	AuthType Basic
-	AuthName "your login for EEC access"
-	AuthUserFile /www/energy/iac/eec/.htpasswd
-	require valid-user
-	Satisfy all
-</Files>

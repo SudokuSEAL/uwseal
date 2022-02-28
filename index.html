@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
     <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
@@ -344,6 +345,15 @@
   </div>
 </div>
 
+<!-- Publications Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">PUBLICATIONS</h3>
+  <p class="w3-center w3-large">Refereed Archival Journal Publications</p>
+  <ul id="refereedArchivalJournalPublicationsList">
+
+  </ul>
+</div>
+
 <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
 <footer class="w3-center w3-black w3-padding-64">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
@@ -384,6 +394,23 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
+
+// Add data from the publication csv's to the Publications section
+
+let refereedArchivalJournalPublicationsList = document.getElementById("refereedArchivalJournalPublicationsList");
+console.log(refereedArchivalJournalPublicationsList);
+const refereedArchivalJournalPublicationsArray =
+[{name: "Ravi Sankar Vaddi, Yifei Guan, Alexander Mamishev and Igor Novosselov",
+  paper: "Analytical model for electrohydrodynamic thrust",
+  publication: "Proceedings A, Royal Society"}];
+
+
+refereedArchivalJournalPublicationsArray.forEach(publication => {
+  let liElement = document.createElement("li");
+  liElement.innerText = publication.name + ", " + publication.paper + ", " + publication.publication;
+  refereedArchivalJournalPublicationsList.appendChild(liElement);
+  });
+
 </script>
 
 </body>

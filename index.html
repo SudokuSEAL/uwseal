@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+    <script src="publications.js"></script>
     <style>
     body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
@@ -350,7 +351,19 @@
   <h3 class="w3-center">PUBLICATIONS</h3>
   <p class="w3-center w3-large">Refereed Archival Journal Publications</p>
   <ul id="refereedArchivalJournalPublicationsList">
-
+  </ul>
+  <h3 class="w3-center">Conference Proceedings and other Non-Journal Articles</h3>
+  <p class="w3-center w3-large">Non-Journal Fully Refereed Publications</p>
+  <ul id="nonJournalFullyRefereedPublicationsList">
+  </ul>
+  <p class="w3-center w3-large">Non-Journal Abstract Refereed Publications</p>
+  <ul id="nonJournalAbstractRefereedPublicationsList">
+  </ul>
+  <p class="w3-center w3-large">Books</p>
+  <ul id="bookPublicationsList">
+  </ul>
+  <p class="w3-center w3-large">Parts of books (chapters in edited books)</p>
+  <ul id="partOfBookPublicationsList">
   </ul>
 </div>
 
@@ -395,21 +408,68 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 
-// Add data from the publication csv's to the Publications section
+/* -------------------------------------------------------------------------
+    Add data from the publication csv's to the Publications section
+   -----------------------------------------------------------------------*/
 
-let refereedArchivalJournalPublicationsList = document.getElementById("refereedArchivalJournalPublicationsList");
-console.log(refereedArchivalJournalPublicationsList);
-const refereedArchivalJournalPublicationsArray =
-[{name: "Ravi Sankar Vaddi, Yifei Guan, Alexander Mamishev and Igor Novosselov",
-  paper: "Analytical model for electrohydrodynamic thrust",
-  publication: "Proceedings A, Royal Society"}];
+// retrieve the publications data from the JS file
+let refereedArchivalJournalPublicationsList =
+  document.getElementById("refereedArchivalJournalPublicationsList");
+let nonJournalFullyRefereedPublicationsList =
+  document.getElementById("nonJournalFullyRefereedPublicationsList");
+let nonJournalAbstractRefereedPublicationsList =
+  document.getElementById("nonJournalAbstractRefereedPublicationsList");
+let bookPublicationsList =
+  document.getElementById("bookPublicationsList");
+let partOfBookPublicationsList =
+  document.getElementById("partOfBookPublicationsList");
 
+// group and retrieve the specific subsets of publications
+let refereedArchivalJournalPublicationsArray =
+  publications["refereedArchivalJournalPublicationsArray"];
+let nonJournalFullyRefereedPublicationsArray =
+  publications["nonJournalFullyRefereedPublicationsArray"];
+let nonJournalAbstractRefereedPublicationsArray =
+  publications["nonJournalAbstractRefereedPublicationsArray"];
+let bookPublicationsArray =
+  publications["bookPublicationsArray"];
+let partOfBookPublicationsArray =
+  publications["partOfBookPublicationsArray"];
 
-refereedArchivalJournalPublicationsArray.forEach(publication => {
+// add the publication entries as list elements
+refereedArchivalJournalPublicationsArray.forEach(entry => {
   let liElement = document.createElement("li");
-  liElement.innerText = publication.name + ", " + publication.paper + ", " + publication.publication;
+  liElement.innerText = entry.authors + ", \"" + entry.paper + "\", " +
+    entry.publication;
   refereedArchivalJournalPublicationsList.appendChild(liElement);
-  });
+});
+
+nonJournalFullyRefereedPublicationsArray.forEach(entry => {
+  let liElement = document.createElement("li");
+  liElement.innerText = entry.authors + ", \"" + entry.paper + "\", " +
+  entry.publication;
+  nonJournalFullyRefereedPublicationsList.appendChild(liElement);
+});
+
+nonJournalAbstractRefereedPublicationsArray.forEach(entry => {
+  let liElement = document.createElement("li");
+  liElement.innerText = entry.authors + ", \"" + entry.paper + "\", " +
+    entry.publication;
+  nonJournalAbstractRefereedPublicationsList.appendChild(liElement);
+});
+
+bookPublicationsArray.forEach(entry => {
+  let liElement = document.createElement("li");
+  liElement.innerText = entry.authors + ", \"" + entry.book + "\"";
+  bookPublicationsList.appendChild(liElement);
+});
+
+partOfBookPublicationsArray.forEach(entry => {
+  let liElement = document.createElement("li");
+  liElement.innerText = entry.authors + ", \"" + entry.book + "\", " + 
+    entry.info;
+  partOfBookPublicationsList.appendChild(liElement);
+});
 
 </script>
 

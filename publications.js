@@ -27,19 +27,19 @@ const publications = {
       paper:
         "DietSkan: Food Volume Estimation for DietaryIntake Analysis Using 3D Mesh Scanning",
       publication:
-        "International Journal of Engineering & Technology, vol. 7, no. 4.38, pp. 1368�1371, 2018",
+        "International Journal of Engineering & Technology, vol. 7, no. 4.38, pp. 1368-1371, 2018",
     },
     {
       authors: "Tsrong-Yi Wen, Igor Krichtafovitch, AlexanderV. Mamishev",
       paper:
-        "Reduction of aerosol particulates through the use of an electrostatic precipitator with guidance-plate-covered collecting electrodes,",
+        "Reduction of aerosol particulates through the use of an electrostatic precipitator with guidance-plate-covered collecting electrodes",
       publication:
-        "Journal of Aerosol Science, Volume 79, January 2015, Pages 40�47",
+        "Journal of Aerosol Science, Volume 79, January 2015, Pages 40-47",
     },
     {
       authors: "T. Y. Wen, H. C. Wang, I. Krichtafovitch, and A. V. Mamishev",
       paper:
-        "Novel Electrodes of an Electrostatic Precipitatorfor Air Filtration,",
+        "Novel Electrodes of an Electrostatic Precipitatorfor Air Filtration",
       publication: "Journal of Electrostatics, vol. 73, pp. 117-124, 2015",
     },
     {
@@ -51,7 +51,7 @@ const publications = {
     {
       authors: "H. C. Wang, and, A. V. Mamishev",
       paper:
-        "Optimization Methodology for Electrospray Evaporative Cooling Chambers,",
+        "Optimization Methodology for Electrospray Evaporative Cooling Chambers",
       publication: "Journal of Electrostatics, Vol. 70, 2012, pp. 384-392",
     },
     {
@@ -65,13 +65,13 @@ const publications = {
       authors:
         "S. Makhsous, H. M. Mohammad, J. M. Schenk, A. V. Mamishev, and A. R. Kristal",
       paper:
-        "A novel mobile structured light system in food 3D reconstruction and volume estimation,",
+        "A novel mobile structured light system in food 3D reconstruction and volume estimation",
       publication: "Sensors, vol. 19, no. 3, p. 564, 2019",
     },
     {
       authors:
         "K. Sundara-Rajan, G. I. Rowe, A. Bestick, G. K. Klute, W. R. Ledoux, and A. V. Mamishev",
-      paper: "Interfacial Stress Sensor for Biomechanical Applications,",
+      paper: "Interfacial Stress Sensor for Biomechanical Applications",
       publication:
         "Measurement Science and Technology, IOP, vol. 23, no. 8, 2012",
     },
@@ -95,7 +95,7 @@ const publications = {
       paper:
         "CFD Analysis of Electrostatic Fluid Accelerators for Forced Convection Cooling",
       publication:
-        "IEEE Transactions on Dielectrics and Electrical Insulation, Volume 15, Issue 6, December 2008, pp.1745 � 1753",
+        "IEEE Transactions on Dielectrics and Electrical Insulation, Volume 15, Issue 6, December 2008, pp.1745 - 1753",
     },
     {
       authors:
@@ -113,9 +113,9 @@ const publications = {
     },
     {
       authors:
-        "Mois�s V. Ribeiro, Jacques Szczupak, M. Reza Iravani, Irene Y. H. Gu, P. K. Dash, and Alexander V. Mamishev",
+        "Moisés V. Ribeiro, Jacques Szczupak, M. Reza Iravani, Irene Y. H. Gu, P. K. Dash, and Alexander V. Mamishev",
       paper:
-        "Emerging Signal Processing Techniques for Power Quality Applications,",
+        "Emerging Signal Processing Techniques for Power Quality Applications",
       publication:
         "EURASIP Journal on Advances in Signal Processing, vol. 2007, Article ID 87425",
     },
@@ -144,12 +144,12 @@ const publications = {
       paper:
         "Non-dimensionalized Parametric Modeling of Fringing Electric Field Sensors",
       publication:
-        "IEEE Sensors Journal, vol. 6, no. 6, Dec. 2006, pp. 1602 � 1608",
+        "IEEE Sensors Journal, vol. 6, no. 6, Dec. 2006, pp. 1602 - 1608",
     },
     {
       authors:
         "N. E. Jewell-Larsen, E. Tran, I. A. Krichtafovitch, A. V. Mamishev",
-      paper: "Design and Optimization of Electrostatic Fluid Accelerators,",
+      paper: "Design and Optimization of Electrostatic Fluid Accelerators",
       publication:
         "IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 13, No. 1, Feb. 2006, pp. 191 - 203",
     },
@@ -158,7 +158,7 @@ const publications = {
       paper:
         "Design Principles for Multi-Channel Fringing Electric Field Sensors",
       publication:
-        "IEEE Sensors Journal, Vol. 6, No. 2, April 2006, pp. 434 � 440",
+        "IEEE Sensors Journal, Vol. 6, No. 2, April 2006, pp. 434 - 440",
     },
     {
       authors:
@@ -169,7 +169,7 @@ const publications = {
     {
       authors: "K. Sundara-Rajan, L. Byrd, and A. V. Mamishev",
       paper:
-        "Estimation of Moisture Content in Paper Pulp Containing Titanium Dioxide Using Fringing Field Impedance Spectroscopy,",
+        "Estimation of Moisture Content in Paper Pulp Containing Titanium Dioxide Using Fringing Field Impedance Spectroscopy",
       publication: "TAPPI Journal, vol. 4, no. 2, Feb. 2005, pp. 23-27",
     },
     {
@@ -190,12 +190,12 @@ const publications = {
       paper:
         "Classification of Power Quality Events Using Optimal Time-Frequency Representations -- Part 2: Application",
       publication:
-        "IEEE Transactions on Power Delivery, vol. 19, no. 3, July 2004, pp. 1496 � 1503",
+        "IEEE Transactions on Power Delivery, vol. 19, no. 3, July 2004, pp. 1496 - 1503",
     },
     {
       authors: "M. Wang and A. V. Mamishev",
       paper:
-        "Classification of Power Quality Events Using Optimal Time-Frequency Representations -- Part 1: Theory,",
+        "Classification of Power Quality Events Using Optimal Time-Frequency Representations -- Part 1: Theory",
       publication:
         "IEEE Transactions on Power Delivery, vol. 19, no. 3, July 2004, pp. 1488 - 1495",
     },
@@ -217,13 +217,13 @@ const publications = {
       paper:
         "Uncertainty in Multiple Penetration Depth Fringing Electric Field Sensor Measurements",
       publication:
-        "IEEE Transactions on Instrumentation and Measurements, Vol. 51, No. 6, Dec 2002, pp. 1192 �1199",
+        "IEEE Transactions on Instrumentation and Measurements, Vol. 51, No. 6, Dec 2002, pp. 1192 - 1199",
     },
     {
       authors:
         "A.V. Mamishev, A.R. Takahashi, Y. Du, B.C. Lesieutre, and M. Zahn",
       paper: "Parameter Estimation In Dielectrometry Measurements",
-      publication: "Journal of Electrostatics, vol. 56, 2002, pp. 465 � 492",
+      publication: "Journal of Electrostatics, vol. 56, 2002, pp. 465 - 492",
     },
     {
       authors: "A.V. Mamishev, Y. Du, J. H. Bau, B.C. Lesieutre, M. Zahn",
@@ -255,7 +255,7 @@ const publications = {
     {
       authors: "A.V. Mamishev, Y. Du, B.C. Lesieutre, M. Zahn",
       paper:
-        "Development and Application of Fringing Electric Field Dielectrometry Sensors and Parameter Estimation Algorithms,",
+        "Development and Application of Fringing Electric Field Dielectrometry Sensors and Parameter Estimation Algorithms",
       publication: "Journal of Electrostatics, vol. 46, 1999, pp. 109-123",
     },
     {
@@ -314,7 +314,7 @@ const publications = {
       paper:
         "Post-Operative Stoma Management Based on 3D Image Reconstruction and Pattern Recognition",
       publication:
-        "FSDM, vol. 309, pp. 794�801, 2018, doi: 10.3233/978-1-61499-927-0-794",
+        "FSDM, vol. 309, pp. 794-801, 2018, doi: 10.3233/978-1-61499-927-0-794",
     },
     {
       authors: "I. A. Krichtafovitch, Tsrong-Yi Wen, A. V. Mamishev",
@@ -347,7 +347,7 @@ const publications = {
         "Junqing Shang, Michael Duong, Eric Pepin, Xing Zhang, Kishore Sandara-Rajan, Alan Kristal, and Alexander Mamishev",
       paper: "A Mobile Structured Light System for Food Volume Estimation",
       publication:
-        "International Workshop on Mobile Vision in conjunction with International Conference on Computer Vision 2011 (ICCV�11), November 2011",
+        "International Workshop on Mobile Vision in conjunction with International Conference on Computer Vision 2011 (ICCV'11), November 2011",
     },
     {
       authors: "H.C. Wang, A.V. Mamishev",
@@ -358,14 +358,14 @@ const publications = {
     {
       authors: "E. Pepin, Y. Dvorkin, A. Mamishev, and G. Kychyakoff",
       paper:
-        "Improved Efficiency of Energy-Intensive Processes through Control of Build-Up on Critical Heat-Transfer Surfaces,",
+        "Improved Efficiency of Energy-Intensive Processes through Control of Build-Up on Critical Heat-Transfer Surfaces",
       publication:
         "ACEEE Summer Study on Energy Efficiency in Industry Niagara Falls, NY, 2011",
     },
     {
       authors:
         "Junqing Shang, Kishore Sundara-Rajan, Levi Lindsey, Ankur Teredesai, Eric Johnson, Alan Kristal, and Alexander Mamishev",
-      paper: "A Pervasive Dietary Data Recording System,",
+      paper: "A Pervasive Dietary Data Recording System",
       publication:
         "IEEE International Conference on Pervasive Computing and Communications, 2011",
     },
@@ -374,7 +374,7 @@ const publications = {
       paper:
         "Optimal Heat Transfer Performance of the Microfluidic Electrospray Cooling Devices",
       publication:
-        "�27th Annual IEEE Semiconductor Thermal Measurement and Management Symposium (SEMI-THERM 2011), 2011, pp. 35-42",
+        "27th Annual IEEE Semiconductor Thermal Measurement and Management Symposium (SEMI-THERM 2011), 2011, pp. 35-42",
     },
     {
       authors:
@@ -384,13 +384,13 @@ const publications = {
     },
     {
       authors: "K. Sundara-Rajan, G. I. Rowe, A. Bestick",
-      paper: "Capacitive Sensing of Interfacial Forces in Prosthesis,",
+      paper: "Capacitive Sensing of Interfacial Forces in Prosthesis",
       publication: "MEMEA Conference, May 2010",
     },
     {
       authors:
         "K. Sundara-Rajan, G. I. Rowe, A. J. Simon, G. K. Klute, W. R. Ledoux, and A. V. Mamishev",
-      paper: "Shear Sensor for Lower Limb Prosthetic Applications,",
+      paper: "Shear Sensor for Lower Limb Prosthetic Applications",
       publication:
         "Proceedings of First Annual ORNL Biomedical Science & Engineering Conference, BSEC 2009, 2009,pp. 1-4",
     },
@@ -475,13 +475,13 @@ const publications = {
       authors: "Bing Jiang; Sample, A.P.; Wistort, R.M.; Mamishev, A.V.",
       paper: "Autonomous robotic monitoring of underground cable systems",
       publication:
-        "12th International Conference on Advanced Robotics, 2005. ICAR '05, July 18-20, 2005, pp. 673 � 679",
+        "12th International Conference on Advanced Robotics, 2005. ICAR '05, July 18-20, 2005, pp. 673 - 679",
     },
     {
       authors:
         "I. A. Krichtafovitch, V. L. Gorobets, S. V. Karpov, and A. V. Mamishev",
       paper:
-        "Electrostatic Fluid Accelerator and Air Purifier � the Second Wind",
+        "Electrostatic Fluid Accelerator and Air Purifier - the Second Wind",
       publication:
         "Annual Meeting of the Electrostatics Society of America, Edmonton, Canada, 2005",
     },
@@ -516,26 +516,26 @@ const publications = {
       authors:
         "N. E. Jewell-Larsen, D. A. Parker, I. A. Krichtafovitch, A. V. Mamishev",
       paper:
-        "Numerical simulation and optimization of electrostatic air pumps,",
+        "Numerical simulation and optimization of electrostatic air pumps",
       publication:
         "IEEE Conference on Electrical Insulation and Dielectric Phenomena, Boulder, CO, October 2004",
     },
     {
       authors: "X. B. Li, C. Kato, A. S. Zyuzin, and A. V. Mamishev",
       paper:
-        "Design of Multi-channel Fringing Electric Field Sensors for Imaging � Part II: Numerical Examples",
+        "Design of Multi-channel Fringing Electric Field Sensors for Imaging - Part II: Numerical Examples",
       publication: "IEEE ESEI Conference, Indiana, 2004, pp. 410-413",
     },
     {
       authors: "X. B. Li, S. D. Larson, A. S. Zyuzin, and A. V. Mamishev",
       paper:
-        "Design of Multi-channel Fringing Electric Field Sensors for Imaging � Part I: General Design Principles",
+        "Design of Multi-channel Fringing Electric Field Sensors for Imaging - Part I: General Design Principles",
       publication: "IEEE ESEI Conference, Indiana, 2004, pp. 406-409",
     },
     {
       authors: "M.C. Hegg, M. J. Kim, A.V. Mamishev",
       paper:
-        "Influence of Variable Plate Separation on Fringing Electric Fields in Parallel-Plate Capacitors,",
+        "Influence of Variable Plate Separation on Fringing Electric Fields in Parallel-Plate Capacitors",
       publication: "IEEE ESEI Conference, Indiana, 2004, pp. 384-387",
     },
     {
@@ -618,15 +618,15 @@ const publications = {
     {
       authors: "M. Wang and A. V. Mamishev",
       paper:
-        "A New Signal Processing Based Solution For PQ Disturbance Classification,",
+        "A New Signal Processing Based Solution For PQ Disturbance Classification",
       publication: "PQA North America Conference, Portland, June 10-12, 2002",
     },
     {
       authors: "B. Jiang, and A. V. Mamishev",
       paper:
-        "Mobile Monitoring and Maintenance of Power Systems,� Invited Session �Power System Monitoring and Control,",
+        "Mobile Monitoring and Maintenance of Power Systems\", Invited Session \"Power System Monitoring and Control",
       publication:
-        "Systemics, Cybernetics, and Informatics Conference, Orlando, Florida, vol. XIX, July 2001, pp. 113-118 (awarded �Best paper in the session�), (invited paper)",
+        "Systemics, Cybernetics, and Informatics Conference, Orlando, Florida, vol. XIX, July 2001, pp. 113-118 (awarded \"Best paper in the session\"), (invited paper)",
     },
     {
       authors: "Y. Du, A. V. Mamishev, and M. Zahn",
@@ -638,14 +638,14 @@ const publications = {
     {
       authors: "S. R. Cantrell, A. V. Mamishev, and M. Zahn",
       paper:
-        "Uncertainty Analysis for Multiple Penetration Depth Dielectrometry,",
+        "Uncertainty Analysis for Multiple Penetration Depth Dielectrometry",
       publication:
         "International Conference on Advances in Processing, Testing and Application of Dielectric Materials, Wroclaw, Poland, September 2001, pp. 119-122",
     },
     {
       authors: "Wang, Min; Ochenkowski, Piotr; Mamishev, Alexander V.",
       paper:
-        "Classification of power quality disturbances using time-frequency ambiguity plane and neural networks,",
+        "Classification of power quality disturbances using time-frequency ambiguity plane and neural networks",
       publication:
         "Proceedings of 2001 IEEE Power Engineering Society Summer Meeting, Vancouver, Canada, July, 2001, vol. 2, pp. 1246-1251",
     },
@@ -687,7 +687,7 @@ const publications = {
     {
       authors: "A.V. Mamishev, Y. Du, B.C. Lesieutre, M. Zahn",
       paper:
-        "Development and Application of Multi-wavelength Interdigital Dielectrometry Sensors and Parameter Estimation Algorithms,",
+        "Development and Application of Multi-wavelength Interdigital Dielectrometry Sensors and Parameter Estimation Algorithms",
       publication:
         "Joint Symposium on Electrostatics, San Francisco, CA, June 1998, pp. 169- 181",
     },
@@ -708,14 +708,14 @@ const publications = {
     {
       authors: "A.V. Mamishev, B.C. Lesieutre, M. Zahn",
       paper:
-        "Parameter Estimation Using an Interdigital Dielectrometry Sensor with Finite-Element Software,",
+        "Parameter Estimation Using an Interdigital Dielectrometry Sensor with Finite-Element Software",
       publication:
         "1997 IEEE Conference on Electrical Insulation and Dielectric Phenomena, Minneapolis, MN, October 1997, pp. 234-237",
     },
     {
       authors: "A.V. Mamishev, M. Zahn, B.C. Lesieutre, B.A. Berdnikov",
       paper:
-        "Influence of Geometric Parameters on Characteristics of an Interdigital Dielectrometry Sensor,",
+        "Influence of Geometric Parameters on Characteristics of an Interdigital Dielectrometry Sensor",
       publication:
         "1996 IEEE Conference on Electrical Insulation and Dielectric Phenomena, San Francisco, CA, October 1996, pp. 550-553",
     },
@@ -735,14 +735,14 @@ const publications = {
     {
       authors: ". Du, M. Zahn, A.V. Mamishev, D.E. Schlicker",
       paper:
-        "Moisture Dynamic Measurements of Transformer Board Using a Three-Wavelength Dielectrometry Sensor,",
+        "Moisture Dynamic Measurements of Transformer Board Using a Three-Wavelength Dielectrometry Sensor",
       publication:
         "1996 IEEE International Symposium on Electrical Insulation, Montreal, Canada, pp. 53-56",
     },
     {
       authors: "A.V. Mamishev, Y. Du, M. Zahn",
       paper:
-        "Measurement of Dielectric Property Distributions Using Interdigital Dielectrometry Sensors,",
+        "Measurement of Dielectric Property Distributions Using Interdigital Dielectrometry Sensors",
       publication:
         "IEEE Conference on Electrical Insulation and Dielectric Phenomena, Virginia Beach, VA, October 1995, pp. 309-312",
     },
@@ -770,14 +770,14 @@ const publications = {
     {
       authors: "A.V. Mamishev",
       paper:
-        "Analytical Solution for the Magnetic Field Produced by a Sequence of Catenaries,",
+        "Analytical Solution for the Magnetic Field Produced by a Sequence of Catenaries",
       publication:
         "Winter1994 IEEE-PES Meeting Student Prize Paper, New York, NY, January 1994",
     },
     {
       authors: "R.D. Nevels, A.V. Mamishev, B.D. Russell",
       paper:
-        "Power Line Magnetic Field Including the Catenary Effect and Electric Field Including Absorbing Boundary Conditions,",
+        "Power Line Magnetic Field Including the Catenary Effect and Electric Field Including Absorbing Boundary Conditions",
       publication:
         "1994 IEEE AP-S International Symposium and URSI Radio Science Meeting, Seattle, WA, June 1994",
     },
@@ -795,7 +795,7 @@ const publications = {
       authors:
         "I. A. Krichtafovitch, V. L. Gorobets, S. V. Karpov, and A. V. Mamishev",
       paper:
-        "Electrostatic Fluid Accelerator and Air Purifier � the Second Wind",
+        "Electrostatic Fluid Accelerator and Air Purifier - the Second Wind",
       publication:
         "Electrostatics Society of America Annual Meeting, Edmonton, Canada, June 2005",
     },
@@ -821,7 +821,7 @@ const publications = {
       authors: "K. Sundara-Rajan, A.V. Mamishev",
       paper:
         "Monitoring Physical Properties of Pharmaceutical Products Using Fringing Field Dielectric Spectroscopy",
-      publication: "IFPAC 2004, Virginia, January 16 � 19, 2004",
+      publication: "IFPAC 2004, Virginia, January 16 - 19, 2004",
     },
     {
       authors: "X.Li, C, Zrybko, R. Magaletta, and A. V. Mamishev",
@@ -833,7 +833,7 @@ const publications = {
     {
       authors: "S. R. Cantrell, T. D. Bowman, A. V. Mamishev",
       paper:
-        "Modular Design of Fringing Electric Field Sensors for Multiple Penetration Depth Dielectrometry,",
+        "Modular Design of Fringing Electric Field Sensors for Multiple Penetration Depth Dielectrometry",
       publication:
         "XII International Conference on Mechanics of Composite Materials, Riga, Lativa, June 2002",
     },
@@ -861,13 +861,13 @@ const publications = {
       authors:
         "B. C. Lesieutre, A. V. Mamishev, Y. Du, E. Keskiner, M. Zahn, and G. Verghese",
       paper:
-        "Forward and Inverse Parameter Estimation Algorithms of Interdigital Dielectrometry Sensors,",
+        "Forward and Inverse Parameter Estimation Algorithms of Interdigital Dielectrometry Sensors",
       publication: "Joint Symposium on Electrostatics, Boston, MA, June 1999",
     },
     {
       authors: "Y. Du, S.H. Kang, A. V. Mamishev, B. C. Lesieutre, and M. Zahn",
       paper:
-        "Measurements of Moisture Diffusion Dynamics in Transformer Insulation Using Interdigital Dielectrometry Measurements,",
+        "Measurements of Moisture Diffusion Dynamics in Transformer Insulation Using Interdigital Dielectrometry Measurements",
       publication: "Joint Symposium on Electrostatics, Boston, MA, June 1999",
     },
     {

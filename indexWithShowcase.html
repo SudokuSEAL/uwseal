@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.min.js"></script>
+    <script src="publications.js"></script>
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://www.w3schools.com/w3images/mac.jpg");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      <a href="#apply" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"></i> APPLY</a>
+      <a href="#projects" class="w3-bar-item w3-button"><i class="fa fa-folder-open"></i> PROJECTS</a>
+      <a href="#publications" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PUBLICATIONS</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  <a href="#apply" onclick="w3_close()" class="w3-bar-item w3-button">APPLY</a>
+  <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+  <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button">PUBLICATIONS</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Sensors, Energy, and Automation Labratory</span><br>
+    <span class="w3-large">SEAL is University research laboratory located in the University of Washington Department of Electrical Engineering. Projects at SEAL are focused on sensor and sensor array design using electric, magnetic, acoustic, and thermal fields. SEAL focuses on developing new products in the area of medical and green energy technologies. The lab performs R&D and P&D by working in collaboration with the NIH, the NSF and other research organizations introducing cutting edge technology to the market..</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+  </div>
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT SEAL</h3>
+  <p class="w3-center w3-large">Key reasons to join SEAL</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Get Credits</p>
+      <p>You can get academic credit while working at SEAL. Most students pick between 1-3 credits depending on the level of commitment they have to the lab.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Experience Research</p>
+      <p>UW is a world-famous research university and SEAL is a perfect introduction to the world of research. See what UW research has to offer with SEAL.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Skills To Add To Resume</p>
+      <p>At SEAL you learn by doing. Working on a project in the lab will invariably teach you new skills to add onto your resume.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Possibilities Of Publications And Scholarships</p>
+      <p>At SEAL we encourage and support students in the quest for publications and scholarships, of which there are plenty opportunities to gain. Publications are excellent for anyone with graduate school on their radar.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Mission Statement</h3>
+      <p>The Sensors, Energy, and Automation Laboratory (SEAL) of the Department of Electrical Engineering is directed by Professor Alexander Mamishev. SEAL conducts research in a variety of areas, including medical device design, consumer products, energy efficiency, security applications, non-destructive testing, and transportation.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Gallery</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="https://www.w3schools.com/w3images/phone_buildings.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">Faculty and Staff</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Alexander V. Mamishev</h3>
+          <p class="w3-opacity">SEAL Director, Professor of EE, Adjunct Professor of ME.</p>
+          <p>Professor Alexander V. Mamishev received the equivalent of a BSEE degree from Kiev Polytechnic Institute, Ukraine, in 1992 and his MSEE from Texas A&M University in 1994. IN 1999 he complete a Ph.D in electrical engineering and computer science at MIT, with a minor in technology management from Harvard Business School and MIT Sloan School of Management. Currently he is a professor and director of the Sensors, Energy, and Automation Laboratory (SEAL) in the Department of Electrical Engineering, University of Washington, Seattle. Mamishev is author on more than 120 technical publications. He serves as an associate editor for the IEEE transactions on Dielectrics and Electrical Insulation. He is a recipient of the NSF CAREER Award, the IEEE Outstanding Branch Advisor Awards and the UW EE Outstanding Research Advisor Award.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.w3schools.com/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Rania Hussein</h3>
+          <p class="w3-opacity">Senior Research Scientist, Assistant Teaching Professor</p>
+          <p>Dr. Rania Hussein is an Assistant Teaching Professor in the department of electrical and computer engineering, a senior research scientist and Assistant Director of SEAL. She has a PhD. of electrical engineering, a MS. of computer Science, a BS. of computer engineering, and a certificate in project management. She focuses on the hardware/software interface and Internet of Things to develop solutions for sustainable applications and platforms. Her research interests include using remote sensing and thermal imaging for energy efficient systems development, embedded systems and IoT, and engineering education. She has a strong teaching portfolio with over 10 years of experience in higher education where she promotes students experience, entrepreneurial, technical, and project management skills. Before joining UW she worked as a research engineer at the Walt Disney company where she worked on software development and the evaluation of disruptive and cutting edge technologies. Besides her technical experience, Dr. Hussein has extensive experience in leadership, serving as founder, board member, or executive director for non-profits to promote diversity, equity, and inclusion. She started initiatives in the local Seattle community to promote cross-cultural awareness and the social/educational development of women and youth. In 2019 she championed the passing of a state law to provide religious accommodation for students in post secondary institutions in Washington State, a law that impacted how syllabi are written in Washington's higher education institutions. She is currently the faculty advisor of AVELA, a student organization at UW, that promotes participation of underrepresented students in K-12 schools through STEM based activities.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.w3schools.com/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Sep Makhsous</h3>
+          <p class="w3-opacity">Electrical Engineering, Ph.D. Program</p>
+          <p>Makhsous holds a Ph.D. in Electrical and Computer Engineering and an MBA in Technology Commercialization from the University of Washington. His research interests are biomedical devices, image processing, 3D imaging, machine learning, and the Internet of Things (IoT). Makhsous is currently a postdoc Commercialization Fellow at the CoMotion center in the UW, working under the supervision of Dr. Mamishev and Dr. Novosselov. As a commercialization postdoc, he is responsible for leading a startup called AeroSpec. AeroSpec is an air quality monitoring system that helps the retail segment of the medical systems' landscape (clinics, dental offices, and urgent care). AeroSpec offers real-time particle distribution models to maintain a safe indoor environment for physicians, nurses, and patients, especially during the COVID-19 pandemic.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.w3schools.com/w3images/team4.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Aaron Zielinski</h3>
+          <p class="w3-opacity">Lead Technical Writer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">OUR GALLERY</h3>
+  <p class="w3-center w3-large">What we've done for people</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="https://www.w3schools.com/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">If you have any questions or inquiries about our work, feel free to fill the contact form here. We will try to respond within five business days. </p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Seattle, WA, US</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mamishev@uw.edu</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </div>
+
+  <!-- Apply Section -->
+  <div class="w3-container w3-light-grey" style="padding:128px 16px" id="apply">
+    <h3 class="w3-center">APPLY</h3>
+    <p class="w3-center w3-large">Make sure to read these documents <b>before</b> applying for any position. </p>
+    <p class="w3-center">
+      <a href="https://docs.google.com/document/d/1YW_S9ZybSvhKI_nuNp7XL8DzUbPETj77SEvugtgLqak/edit" target="_blank" style="text-decoration: none;">
+        <button class="w3-button w3-black w3-center" type="submit">
+          <i></i> FAQ/Introduction to SEAL
+        </button>
+      </a>
+      &nbsp; &nbsp; &nbsp;
+      <a href="https://docs.google.com/presentation/d/e/2PACX-1vQ9VG87uMQSPhwdXctTRM0jIenB3S-NXUVoAy4HSrdVnFQN6p9np0MDO316I6s93w/pub?start=false&loop=false&delayms=3000&slide=id.p1" target="_blank" style="text-decoration: none;">
+        <button class="w3-button w3-black w3-center" type="submit">
+          <i></i> Open Positions
+        </button>
+      </a>
+      &nbsp; &nbsp; &nbsp;
+      <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vRUjV02hp8m-490GjwRReGJRw9iFrARsZRAE-BUEqfxqODEQUtinrlbngTsXrFjzoYArajkePcDxMxA/pub" target="_blank">
+        <button class="w3-button w3-black w3-center" type="submit">
+          <i></i> Cover Letter Template
+        </button>
+      </a
+    </p>
+    <p class="w3-center w3-large"><big>The application is currently open. Please submit your application using the link below. </big></p>
+    <p class="w3-center">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzm_alKU4lQkhiQHb4o4QsHIWhCcxz-rCUOS-A1xlpLm4TEQ/viewform" target="_blank" style="text-decoration: none;">
+        <button class="w3-button w3-red w3-center" type="submit">
+          <i></i> Apply
+        </button>
+      </a>
+    </p>
+
+    <!-- Image of location/map -->
+    <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Project Showcase Section  -->
+<div class="w3-container w3-light-grey w3-center" style="padding:68px 16px" id="projects">
+  <h3 class="w3-center">PROJECT SHOWCASE</h3>
+  <iframe width=75% height="650px" class="w3-large w3-white" src="https://docs.google.com/document/d/e/2PACX-1vQBJeJt9F-Al5Wr_qLX3CNWGR_Sb__sA0p53Gf9EvpsGaJMMsqYbJ0lcqC2UrL64jj3g3DdlSxj13jz/pub?embedded=true"></iframe>
+</div>
+
+<!-- Publications Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="publications">
+  <h3 class="w3-center">PUBLICATIONS</h3>
+  <p class="w3-center w3-large">Refereed Archival Journal Publications</p>
+  <ul id="refereedArchivalJournalPublicationsList">
+  </ul>
+  <h3 class="w3-center">Conference Proceedings and other Non-Journal Articles</h3>
+  <p class="w3-center w3-large">Non-Journal Fully Refereed Publications</p>
+  <ul id="nonJournalFullyRefereedPublicationsList">
+  </ul>
+  <p class="w3-center w3-large">Non-Journal Abstract Refereed Publications</p>
+  <ul id="nonJournalAbstractRefereedPublicationsList">
+  </ul>
+  <p class="w3-center w3-large">Books</p>
+  <ul id="bookPublicationsList">
+  </ul>
+  <p class="w3-center w3-large">Parts of books (chapters in edited books)</p>
+  <ul id="partOfBookPublicationsList">
+  </ul>
+</div>
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+ <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
+ <a class="w3-button w3-round-xxlarge w3-small w3-light-grey w3-margin-bottom" href="https://www.w3schools.com/spaces" target="_blank">Start now</a>
+</footer>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+
+/* -------------------------------------------------------------------------
+    Add data from the publication csv's to the Publications section
+   -----------------------------------------------------------------------*/
+
+// retrieve the publications data from the JS file
+let refereedArchivalJournalPublicationsList =
+  document.getElementById("refereedArchivalJournalPublicationsList");
+let nonJournalFullyRefereedPublicationsList =
+  document.getElementById("nonJournalFullyRefereedPublicationsList");
+let nonJournalAbstractRefereedPublicationsList =
+  document.getElementById("nonJournalAbstractRefereedPublicationsList");
+let bookPublicationsList =
+  document.getElementById("bookPublicationsList");
+let partOfBookPublicationsList =
+  document.getElementById("partOfBookPublicationsList");
+
+// group and retrieve the specific subsets of publications
+let refereedArchivalJournalPublicationsArray =
+  publications["refereedArchivalJournalPublicationsArray"];
+let nonJournalFullyRefereedPublicationsArray =
+  publications["nonJournalFullyRefereedPublicationsArray"];
+let nonJournalAbstractRefereedPublicationsArray =
+  publications["nonJournalAbstractRefereedPublicationsArray"];
+let bookPublicationsArray =
+  publications["bookPublicationsArray"];
+let partOfBookPublicationsArray =
+  publications["partOfBookPublicationsArray"];
+
+// add the publication entries as list elements
+refereedArchivalJournalPublicationsArray.forEach(entry => {
+  let liElement = document.createElement("li");
+  liElement.innerText = entry.authors + ", \"" + entry.paper + "\", " +
+    entry.publication;
+  refereedArchivalJournalPublicationsList.appendChild(liElement);
+});
+
+nonJournalFullyRefereedPublicationsArray.forEach(entry => {
+  let liElement = document.createElement("li");
+  liElement.innerText = entry.authors + ", \"" + entry.paper + "\", " +
+  entry.publication;
+  nonJournalFullyRefereedPublicationsList.appendChild(liElement);
+});
+
+nonJournalAbstractRefereedPublicationsArray.forEach(entry => {
+  let liElement = document.createElement("li");
+  liElement.innerText = entry.authors + ", \"" + entry.paper + "\", " +
+    entry.publication;
+  nonJournalAbstractRefereedPublicationsList.appendChild(liElement);
+});
+
+bookPublicationsArray.forEach(entry => {
+  let liElement = document.createElement("li");
+  liElement.innerText = entry.authors + ", \"" + entry.book + "\"";
+  bookPublicationsList.appendChild(liElement);
+});
+
+partOfBookPublicationsArray.forEach(entry => {
+  let liElement = document.createElement("li");
+  liElement.innerText = entry.authors + ", \"" + entry.book + "\", " +
+    entry.info;
+  partOfBookPublicationsList.appendChild(liElement);
+});
+
+</script>
+
+</body>
+</html>

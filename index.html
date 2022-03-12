@@ -18,9 +18,8 @@
 
     /* Full height image header */
     .bgimg-1 {
-      background-size: cover;
       width: 100%;
-      background: url("images/group_photo.png") no-repeat center center;
+      background: url("images/group_photo.png") no-repeat center center/contain;
     }
 
     .w3-bar .w3-button {
@@ -33,8 +32,7 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <img src="images/ECE_logo.png" alt width="200" style="margin-top: 0.5em; margin-left: 1em">
-    <img src="images/seal_logo.png" alt width="75" style="margin-top: 0.2em; margin-left: 1em">
+    <img src="images/ECE_logo.png" alt width="200" style="margin-top: 1.2rem; margin-left: 1em; object-fit: contain; display: inline;">
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
@@ -46,11 +44,23 @@
       <a href="#awards" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i> AWARDS</a>
       <a href="#publications" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PUBLICATIONS</a>
     </div>
+    <img src="images/seal_logo.png" alt width="75" style="margin-top: 0.2em; float: right; margin-right: 1em; object-fit: contain; display: inline;">
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
       <i class="fa fa-bars"></i>
     </a>
+  </div>
+</div>
+
+<div class="w3-top" style="margin-top: 1em;">
+  <div class="w3-hide-small" style="margin-right: auto; margin-left: auto; font-size: large; display: flex; justify-content: center; width: 60em;">
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+    <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+    <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#apply" class="w3-bar-item w3-button"><i class="fa fa-handshake-o"></i> APPLY</a>
+    <a href="#projects" class="w3-bar-item w3-button"><i class="fa fa-folder-open"></i> PROJECTS</a>
+    <a href="#publications" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PUBLICATIONS</a>
   </div>
 </div>
 
@@ -68,7 +78,7 @@
 </nav>
 
 <!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-mi" id="home" style="margin-top: 3.9em; height: 60em;">
+<header class="bgimg-1 w3-display-container w3-grayscale-mi" id="home" style="margin-top: 3.9em; height: 50%">
   <div class="w3-display-left w3-text-white" style="padding:48px">
     <span class="w3-jumbo w3-hide-small">Sensors, Energy, and Automation Labratory</span><br>
     <span class="w3-large">SEAL is University research laboratory located in the University of Washington Department of Electrical Engineering. Projects at SEAL are focused on sensor and sensor array design using electric, magnetic, acoustic, and thermal fields. SEAL focuses on developing new products in the area of medical and green energy technologies. The lab performs R&D and P&D by working in collaboration with the NIH, the NSF and other research organizations introducing cutting edge technology to the market..</span>
@@ -130,10 +140,10 @@
 <div class="w3-container" style="padding:128px 16px" id="team">
   <h3 class="w3-center">THE TEAM</h3>
   <p class="w3-center w3-large">Faculty and Staff</p>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+  <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
+        <img src="people/mamishev.png" alt="Portrait of Alexander V. Mamishev" style="height: 27em; max-width: 100%; object-fit: cover; display: block; margin-left: auto; margin-right: auto">
         <div class="w3-container">
           <h3>Alexander V. Mamishev</h3>
           <p class="w3-opacity">SEAL Director, Professor of EE, Adjunct Professor of ME.</p>
@@ -144,7 +154,7 @@
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="https://www.w3schools.com/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <img src="people/contact_hussein.jpeg" alt="Portrait of Rania Hussein" style="height: 27em; max-width: 100%; object-fit: cover; display: block; margin-left: auto; margin-right: auto">
         <div class="w3-container">
           <h3>Rania Hussein</h3>
           <p class="w3-opacity">Senior Research Scientist, Assistant Teaching Professor</p>
@@ -155,7 +165,7 @@
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="https://www.w3schools.com/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <img src="people/sep.jpeg" alt="Portrait of Sep Makhsous" style="height: 27em; max-width: 100%; object-fit: cover; display: block; margin-left: auto; margin-right: auto">
         <div class="w3-container">
           <h3>Sep Makhsous</h3>
           <p class="w3-opacity">Electrical Engineering, Ph.D. Program</p>
@@ -166,7 +176,7 @@
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
-        <img src="https://www.w3schools.com/w3images/team4.jpg" alt="Dan" style="width:100%">
+        <img src="people/aaron.png" alt="Portrait of Aaron Zielinski" style="height: 27em; max-width: 100%; object-fit: cover; display: block; margin-left: auto; margin-right: auto">
         <div class="w3-container">
           <h3>Aaron Zielinski</h3>
           <p class="w3-opacity">Lead Technical Writer</p>

@@ -469,15 +469,15 @@
             <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (206)221-5729</p>
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mamishev@uw.edu</p>
             <br>
-            <form action="/action_page.php" target="_blank">
+            <form>
                 <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+                <!-- <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p> -->
+                <input class="w3-input w3-border" id="email-subject" type="text" placeholder="Subject" required name="Subject">
+                <input class="w3-input w3-border" type="text" id="email-message" placeholder="Message" required name="Message">
                 <p>
-                    <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND
-        </button>
+                    <a id="email-button" href="mailto:mamishev@uw.edu" class="w3-button w3-black" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND Email to Mamishev
+                    </a>
                 </p>
             </form>
         </div>
@@ -652,7 +652,7 @@
     </footer>
 
     <script src="showcaseAction.js"></script>
-
+    <script src="main.js"></script>
 </body>
 
 </html>

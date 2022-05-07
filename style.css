@@ -67,6 +67,66 @@ a:hover {
   margin-bottom: 4%;
 }
 
-.award-member-image {
-  height: 400px;
+/* Styling for Awards section */
+
+.award-card {
+  min-height: 50vh;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+
+.award-image-wrapper {
+  height: 50vh;
+  width: 312px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.award-image {
+  height: 100%;
+}
+
+.award-info {
+  margin: 12px;
+  width: 50vw;
+}
+
+.award-recipient {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.award-name {
+  font-size: 18px;
+}
+
+/* Styling for Awards section on smaller screens */
+
+@media only screen and (max-width: 1200px) {
+  .award-card {
+    flex-direction: column;
+  }
+
+  .award-image-wrapper {
+    width: 50vw;
+    height: 50vw;
+    margin-top: 24px;
+    border-radius: 1%;
+  }
+
+  .award-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .award-card {
+    width: 90vw;
+  }
 }

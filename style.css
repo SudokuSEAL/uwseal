@@ -1,0 +1,132 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 80%;
+  background-color: gainsboro;
+}
+
+.header {
+  background-color: #4b2e83;
+  color: white;
+  transition: 0.3s;
+}
+
+.header:hover {
+  background-color: #85754d;
+  color: #4b2e83;
+}
+
+/* Full height image header */
+
+.bgimg-1 {
+  width: 100%;
+  background: url('images/group_photo.png') no-repeat center center/contain;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.material-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  transition: 0.3s;
+  background-color: white;
+}
+
+.member-image {
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4%;
+}
+
+/* Styling for Awards section */
+
+.award-card {
+  min-height: 50vh;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+
+.award-image-wrapper {
+  height: 50vh;
+  width: 312px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.award-image {
+  height: 100%;
+}
+
+.award-info {
+  margin: 12px;
+  width: 50vw;
+}
+
+.award-recipient {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.award-name {
+  font-size: 18px;
+}
+
+/* Styling for Awards section on smaller screens */
+
+@media only screen and (max-width: 1200px) {
+  .award-card {
+    flex-direction: column;
+  }
+
+  .award-image-wrapper {
+    width: 50vw;
+    height: 50vw;
+    margin-top: 24px;
+    border-radius: 1%;
+  }
+
+  .award-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .award-card {
+    width: 90vw;
+  }
+}

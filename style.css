@@ -37,7 +37,7 @@ a:hover {
 }
 
 section {
-  padding: 128px 64px 128px 64px;
+  padding: 128px 76px 128px 76px;
 }
 
 #awards,
@@ -124,8 +124,8 @@ section {
   }
 
   .award-image-wrapper {
-    width: 50vw;
-    height: 50vw;
+    width: 45vw;
+    height: 45vw;
     margin-top: 24px;
     border-radius: 1%;
   }

@@ -36,10 +36,21 @@ a:hover {
   color: #4b2e83;
 }
 
+section {
+  padding: 128px 76px 128px 76px;
+}
+
+#awards,
+#gallery,
+#projects {
+  padding: 68px 10% 68px 10%;
+}
+
 /* Full height image header */
 
 .bgimg-1 {
   width: 100%;
+  margin-top: 3.9em;
   background: url('images/group_photo.png') no-repeat center center/contain;
 }
 
@@ -127,8 +138,8 @@ a:hover {
   }
 
   .award-image-wrapper {
-    width: 50vw;
-    height: 50vw;
+    width: 45vw;
+    height: 45vw;
     margin-top: 24px;
     border-radius: 1%;
   }
@@ -136,11 +147,5 @@ a:hover {
   .award-image {
     width: 100%;
     height: auto;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .award-card {
-    width: 90vw;
   }
 }

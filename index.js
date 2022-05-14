@@ -10,6 +10,10 @@
     curAlbumGallery = "spr17-gallery";
     showSlides(slideIndex);
 
+    // Scales the iframe in project showcase to the right size.
+    iframeScaler();
+    window.addEventListener("resize", iframeScaler);
+
     const demoPhotos = document.querySelectorAll(".demo");
     demoPhotos.forEach((element) => {
       element.addEventListener("click", () =>
@@ -63,7 +67,7 @@
       "#" + curAlbumGallery + " > .caption-container > p"
     );
 
-    console.log("slides: ", slides, ", dots: ", imageSelections, " ", n);
+    // console.log("slides: ", slides, ", dots: ", imageSelections, " ", n);
     if (n > slides.length) {
       slideIndex = 1;
     }
@@ -87,7 +91,7 @@
 
     galleryViews.forEach(view => {
       if (view != curAlbumGallery) {
-        console.log('testing');
+        // console.log('testing');
         document.getElementById(view).style.display = "none";
       } else {
         document.getElementById(view).style.display = "block";
@@ -95,5 +99,17 @@
     })
     slideIndex = 1;
     showSlides(slideIndex);
+  }
+
+  // Scales the iframe in the project showcase depending on window size.
+  function iframeScaler() {
+    let wrap = document.querySelector('.frame-wrap');
+    let wrapWidth = wrap.clientWidth;
+    let maxWrapWidth = 1152;
+    let scale = wrapWidth / maxWrapWidth;
+    let iframe = document.querySelector('.frame-wrap > iframe');
+    iframe.style.setProperty('--iframe-scale', scale);
+    iframe.width = iframe.clientWidth / scale + 'px';
+    iframe.height = iframe.clientHeight / scale + 'px';
   }
 })();

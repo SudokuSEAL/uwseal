@@ -37,7 +37,7 @@ a:hover {
 }
 
 section {
-  padding: 128px 76px 128px 76px;
+  padding: 128px 10% 128px 10%;
 }
 
 #awards,
@@ -92,7 +92,7 @@ section {
   padding: 1em;
 }
 
-/* Styling for Awards section */
+/* Awards section */
 
 .award-card {
   min-height: 50vh;
@@ -130,7 +130,7 @@ section {
   font-size: 18px;
 }
 
-/* Styling for Awards section on smaller screens */
+/* Awards section on smaller screens */
 
 @media only screen and (max-width: 1200px) {
   .award-card {
@@ -148,4 +148,22 @@ section {
     width: 100%;
     height: auto;
   }
+}
+
+/* Project showcase */
+
+.frame-wrap {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  padding-top: 608%;
+}
+
+.frame-wrap > iframe {
+  transform: scale(var(--iframe-scale));
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }

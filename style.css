@@ -37,7 +37,7 @@ a:hover {
 }
 
 section {
-  padding: 128px 76px 128px 76px;
+  padding: 128px 10% 128px 10%;
 }
 
 #awards,
@@ -153,6 +153,7 @@ section {
 /* Project showcase */
 
 .frame-wrap {
+  height: 100%;
   overflow: hidden;
   position: relative;
   justify-content: center;

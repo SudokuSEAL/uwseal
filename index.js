@@ -110,5 +110,6 @@
     let iframe = document.querySelector('.frame-wrap > iframe');
     iframe.style.setProperty('--iframe-scale', scale);
     iframe.width = iframe.clientWidth / scale + 'px';
+    iframe.height = iframe.clientHeight / scale + 'px';
   }
 })();

@@ -82,18 +82,30 @@ section {
   margin-bottom: 4%;
 }
 
+/* Associates section */
 .associate-image {
-  width: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  width: 14.66%;
   margin: 1em auto;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 4%;
-  background: #e5e4e4;
+  margin-bottom: 2%;
+  background: #e4e4e4;
   padding: 1em;
+}
+
+.associate-img-wrapper {
+  margin-bottom: 10%;
+}
+
+figcaption {
+  align-self: flex-end;
+  text-align: left;
+  font-size: auto;
+  font-style: italic;
+  line-height: 1.5;
+  color: #777;
+  padding-right: 35px;
+  /*adjust this to control how far it should be from egde*/
 }
 
 /* Awards section */
@@ -181,4 +193,10 @@ section {
   margin: 0px;
   padding: 0px;
   z-index: 10;
+}
+
+/* Social Media Icon Color */
+
+.fa {
+  color:white
 }

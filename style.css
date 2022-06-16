@@ -50,12 +50,8 @@ section {
 
 .bgimg-1 {
   width: 100%;
+  margin-top: 3.9em;
   background: url('images/group_photo.png') no-repeat center center/contain;
-}
-
-#home {
-  margin-top: 6%;
-  height: 50%;
 }
 
 .w3-bar .w3-button {
@@ -182,17 +178,6 @@ figcaption {
   position: absolute;
   top: 0px;
   left: 0px;
-}
-
-/* Navigation */
-
-.navbar {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  margin: 0px;
-  padding: 0px;
-  z-index: 10;
 }
 
 /* Social Media Icon Color */

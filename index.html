@@ -27,11 +27,23 @@
 </head>
 
 <body>
-  <!-- Navbar (sit on top) -->
+  <!-- Logos on top -->
+  <div class="logo">
+    <div class="ece-logo">
+        <a class="img-link" href="https://www.ece.uw.edu/">
+          <img src="images/ECE_logo.png" width="300">
+        </a> 
+    </div>
+    <div class="seal-logo">
+      <a class="img-link" href="https://www.uwseal.org" title="SEAL">
+        <img src="images/seal_logo.png" width=120>
+      </a>
+    </div>
+    <div class="right-buffer"></div>
+  </div>
+  <!-- Navbar -->
   <div class="w-100 navbar">
     <div class="w3-bar w3-white w3-card d-flex justify-content-between" id="myNavbar">
-      <img src="images/ECE_logo.png"
-        style="max-width:14vw; margin-top: 1.2rem; margin-left: 1em; object-fit: contain; display: inline;">
       <!-- Right-sided navbar links -->
       <div class="d-none d-md-flex justify-content-center flex-wrap"
         style="margin-right: auto; margin-left: auto; font-size: large; display: flex; justify-content: center; width: 60em;">
@@ -53,8 +65,7 @@
         <a href="#gallery" class="w3-button"><i class="fa fa-photo"></i>
           GALLERY</a>
       </div>
-      <img src="images/seal_logo.png"
-        style="max-width:8vw; margin-top: 0.2em; float: right; margin-right: 1em; object-fit: contain; display: inline;">
+      
       <!-- Hide right-floated links on small screens and replace them with a menu icon -->
       <a href="javascript:void(0)" class=" w3-button w3-right d-block d-md-none"
         onclick="w3_open()">

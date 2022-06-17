@@ -108,3 +108,30 @@
 .btm-right-thmb-img {
   border-bottom-right-radius: 1em;
 }
+
+/* flexbox for logos on top */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.ece-logo {
+  flex: 0.4;
+
+  align-self: flex-end;
+}
+.right-buffer {
+  flex: 0.4;
+  width: 300px;
+}
+
+/* don't highlight image links in hover */
+.img-link:hover {
+  text-decoration: none;
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0);
+  
+}
+
+

@@ -183,5 +183,13 @@ figcaption {
 /* Social Media Icon Color */
 
 .fa {
-  color:white
+  color:black
+}
+
+.footer .fa{
+  color: white
+}
+
+.header .fa{
+  color: black
 }

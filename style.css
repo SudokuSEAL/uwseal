@@ -183,18 +183,20 @@ figcaption {
 /* Social Media Icon Color */
 
 .fa {
-  color:black
+  color: black;
 }
 
-.footer .fa{
-  color: white
+.footer .fa {
+  color: white;
 }
 
-.header .fa{
-  color: black
+.header .fa {
+  color: black;
 }
-/*adding the background color to about*/
-.w3-quarter {
+
+/* Adding the background color to about */
+
+#about .w3-quarter {
   background-color: #f1eff9;
   background-size: 150px;
   width: 260px;
@@ -202,4 +204,12 @@ figcaption {
   border: 2px solid;
   color: #694ca2;
   margin: 10px;
+}
+
+/* Styling for the images in the about section */
+
+#about .w3-quarter > img {
+  padding: 24px;
+  height: 50%;
+  width: auto;
 }

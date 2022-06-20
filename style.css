@@ -193,3 +193,13 @@ figcaption {
 .header .fa{
   color: black
 }
+/*adding the background color to about*/
+.w3-quarter {
+  background-color: #f1eff9;
+  background-size: 150px;
+  width: 260px;
+  height: 550px;
+  border: 2px solid;
+  color: #694ca2;
+  margin: 10px;
+}

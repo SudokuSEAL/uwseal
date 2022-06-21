@@ -116,11 +116,12 @@
   align-items: center;
   padding: 15px;
 }
+
 .ece-logo {
   flex: 0.4;
-
   align-self: flex-end;
 }
+
 .right-buffer {
   flex: 0.4;
   width: 300px;
@@ -130,8 +131,5 @@
 .img-link:hover {
   text-decoration: none;
   color: inherit;
-  background-color: rgba(0, 0, 0, 0);
-  
+  background-color: rgba(0, 0, 0, 0); 
 }
-
-

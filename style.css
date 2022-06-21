@@ -38,6 +38,7 @@ a:hover {
 
 section {
   padding: 128px 10% 128px 10%;
+  min-height: 100vh;
 }
 
 #awards,

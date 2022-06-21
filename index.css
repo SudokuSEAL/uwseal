@@ -116,11 +116,12 @@
   align-items: center;
   padding: 15px;
 }
+
 .ece-logo {
   flex: 0.4;
-
   align-self: flex-end;
 }
+
 .right-buffer {
   flex: 0.4;
   width: 300px;
@@ -131,8 +132,4 @@
   text-decoration: none;
   color: inherit;
   background-color: rgba(0, 0, 0, 0); 
-}
-
-section {
-  min-height: 100vh;
 }

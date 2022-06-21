@@ -130,8 +130,9 @@
 .img-link:hover {
   text-decoration: none;
   color: inherit;
-  background-color: rgba(0, 0, 0, 0);
-  
+  background-color: rgba(0, 0, 0, 0); 
 }
 
-
+section {
+  min-height: 100vh;
+}

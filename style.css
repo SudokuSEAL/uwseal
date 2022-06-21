@@ -25,20 +25,24 @@ a:hover {
   background-color: gainsboro;
 }
 
-.header {
+.section__header {
   background-color: #4b2e83;
   color: white;
   transition: 0.3s;
+  margin-bottom: 48px;
 }
 
-.header:hover {
+.section__header:hover {
   background-color: #85754d;
   color: #4b2e83;
 }
 
 section {
-  padding: 128px 10% 128px 10%;
   min-height: 100vh;
+}
+
+.section__content {
+  padding: 3% 10% 5% 10%;
 }
 
 #awards,
@@ -103,7 +107,7 @@ figcaption {
   line-height: 1.5;
   color: #777;
   padding-right: 35px;
-  /*adjust this to control how far it should be from egde*/
+  /* Adjust this to control how far it should be from edge */
 }
 
 /* Awards section */

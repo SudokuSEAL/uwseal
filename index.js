@@ -7,6 +7,9 @@
   window.addEventListener("load", init);
 
   function init() {
+    document.addEventListener("scroll", scrollCheck);
+    document.getElementById("back-to-top-btn").addEventListener("click", backToTop);
+
     curAlbumGallery = "spr17-gallery";
     showSlides(slideIndex);
 
@@ -41,6 +44,8 @@
       curAlbumGallery = "spr18-gallery";
       switchGalleryView();
     });
+
+
 
   }
 
@@ -112,4 +117,21 @@
     iframe.width = iframe.clientWidth / scale + 'px';
     iframe.height = iframe.clientHeight / scale + 'px';
   }
+
+  // If not at top, reveal button
+  function scrollCheck() {
+    let backToTopButton = document.getElementById("back-to-top-btn"); //get button
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      backToTopButton.style.display = "block"; // reveal button when scrolled over 50 px
+    } else {
+      backToTopButton.style.display = "none";
+    }
+  }
+
+  // Back to top callback
+  function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
 })();

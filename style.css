@@ -234,3 +234,12 @@ figcaption {
   height: 50%;
   width: auto;
 }
+
+/* Styling for the back to top button */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99;
+}

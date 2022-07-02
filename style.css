@@ -259,3 +259,7 @@ p,
 #back-to-top-btn:hover {
   transform: scale(1.1);
 }
+
+.w3-button > .fa-th {
+  color:rgb(255, 255, 255)
+}

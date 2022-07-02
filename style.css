@@ -113,11 +113,18 @@ figcaption {
 }
 
 /* Contact and Apply section*/
-#contact h3, #apply h3,p, #projects h3, #awards h3,p, #publications h3, #gallery h3{
+#contact h3,
+#apply h3,
+p,
+#projects h3,
+#awards h3,
+p,
+#publications h3,
+#gallery h3 {
   text-align: center;
 }
 
-.bigText p{
+.bigText p {
   font-size: 20px;
 }
 
@@ -199,7 +206,7 @@ figcaption {
 
 /* Social Media Icon Color */
 
-#footer{
+#footer {
   text-align: center;
 }
 
@@ -239,7 +246,16 @@ figcaption {
 #back-to-top-btn {
   display: none;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
+  border: black 1px solid;
+  border-radius: 5px;
+  bottom: 24px;
+  right: 24px;
+  background-color: white;
+  opacity: 0.75;
+  transition: 0.2s;
   z-index: 99;
+}
+
+#back-to-top-btn:hover {
+  transform: scale(1.1);
 }

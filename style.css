@@ -57,7 +57,6 @@ section {
 
 .bgimg-1 {
   width: 100%;
-  margin-top: 3.9em;
   background: url('images/group_photo.png') no-repeat center center/contain;
 }
 
@@ -254,6 +253,25 @@ p,
   opacity: 0.75;
   transition: 0.2s;
   z-index: 99;
+}
+
+h1 {
+  font-size: 3.8vw;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #4b2e83;
+}
+
+#intro img {
+  width: 100%;
+}
+
+#intro p {
+  font-size: 15px;
+  text-align: left;
+  margin: 20px;
 }
 
 #back-to-top-btn:hover {
